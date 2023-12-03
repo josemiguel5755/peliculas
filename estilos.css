@@ -43,12 +43,7 @@ input{
     border-radius: 20px;
 }
 
-.contenedor {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 10px;
-}
+
 
 
 .cartas{
@@ -121,9 +116,11 @@ input{
 
 @media screen and (max-width: 390px) {
     .cartas{
-       margin-right: -200px;
-      display: flex;
-      flex-wrap: wrap;
+       margin-right: -800px;
+     display: flex;
+     flex-wrap: wrap;
       
     }
+
+ 
 }
