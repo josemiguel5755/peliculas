@@ -113,14 +113,56 @@ input{
     color: #fffafa;
 }
 
+@media screen and (max-width: 390px){
+    .carta{
+        width: 270%;
+        margin: 530px;
+    }
 
-@media screen and (max-width: 390px) {
-    .cartas{
-       margin-right: -900px;
-     display: flex;
-     flex-wrap: wrap;
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .poster{
+        width: 170%;
+        height: 1090px;
+       
+
+    }
+
+    figcaption{
+        font-size: 110px;
+        margin-right: -300px;
+    }
+
+    nav{
+       margin: 30px;
+
+    }
+
+    ul{
+        position: relative;
+       position: absolute;
+       left: 400px;
+       top: 300px;
+       display: flex;
+       font-size: 80px;
       
     }
 
+    .filtro-carta{
+        font-size: 100px;
+        margin-top: 70px;
+    }
+
+    a{
+        margin: 50px;
+    }
  
-}
+
+
+
+    hr{
+        position: absolute;
+    }
+  }
